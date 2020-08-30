@@ -1,0 +1,65 @@
+footer{
+    margin-bottom:0;
+}
+
+.footer1{
+    background-color: #F4D03F;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.footer2{
+    background-color: #F4D03F;
+    height: 50px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .Header{
+        background-color: #2ECC71;
+        height: 50px;
+    }
+
+    .section1, .section2, .section3{
+        background-color: #E74C3C;
+        height: 500px;
+    }
+ 
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .Header{
+        background-color: cyan;
+    }
+    .section1,.section2{
+        background-color: #E74C3C;
+        height: 150px;
+    }
+    
+    .section3{
+        background-color: #2ECC71;
+        height: 150px;
+    }
+
+}
+
+
+@media screen and (max-width: 575px) {
+    .Header{
+        background-color: #F5B7B1;
+    }
+    
+    .section1, .section3{
+        background-color: #E74C3C;
+        height: 150px;
+    }
+    
+    .section2{
+        background-color: cyan;
+        height: 150px;
+    }
+}
+
+
+

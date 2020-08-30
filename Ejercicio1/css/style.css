@@ -1,0 +1,118 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Balsamiq Sans'
+}
+
+#logo{
+	margin-top: 1.5%;
+	margin-left: 4%;
+	width: 17%;
+}
+#menu{
+	width:77%;
+}
+header{
+	width: 100%;
+	height:250px;
+	background-color: azure;
+	border-style: solid;
+}
+
+header div{
+	display: inline-block;
+}
+#lista {
+ padding: 0;
+ padding-left: 25%;
+ }
+
+#lista li {
+ display: inline;
+ }
+ #lista li a {
+ font-family: 'Balsamiq Sans', cursive;
+ font-size: 16pt;
+ text-decoration: none;
+ float: left;
+ padding: 10px;
+ padding-left: 5%;
+ padding-right:5%;
+ background-color: #2E86C1;
+ color: #fff;
+ }
+
+#menu h3{
+ font-family: 'Balsamiq Sans', cursive;
+ text-decoration: none;
+ float: left;
+ padding: 11px;
+ padding-left: 3.5%;
+ padding-right: 3.5%;
+ background-color: #2C3E50;
+ color: #FFFFFF;
+}
+
+ #lista li a:hover {
+ background-color: #154360;
+ margin-top: -2;
+ padding-bottom: 12px;]
+ }
+
+ .slider{
+  height: 350px;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  width: 80%;
+  overflow: hidden;
+  box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+}
+.slider .imagenes{
+  height: 100%;
+  width: 100%;
+}
+.imagenes img{
+  height: 100%;
+  width: 100%;
+}
+
+section{
+	padding-left: 6%;
+	padding-right:6%;
+}
+.paises{
+	position: relative;
+	margin-right:4%;
+	margin-left:4%;
+	text-align: center;
+	float: left;
+	width: 280px;
+	height: 175px;
+	border-style: solid;
+}
+.paises p {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	padding-top : 8px;
+	padding-bottom : 8px;
+	color: white;
+	background-color: #1ABC9C;
+}
+#tabla{
+	margin-bottom: 4%;
+	margin-top: 25%;
+}
+table{
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+  	width: 100%;
+}
+td, th {
+  border: 1.5px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
